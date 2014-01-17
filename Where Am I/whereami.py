@@ -10,6 +10,7 @@ Prints out your your location based on your public ip
 NOTE that: this requires the python  requests lib to run
      instructions to install it are found
       here:  http://docs.python-requests.org/en/latest/user/install/
+      or here: http://www.pip-installer.org
 '''
 
 from re import compile
