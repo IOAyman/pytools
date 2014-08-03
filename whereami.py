@@ -18,7 +18,7 @@
 #     (which you can read more about at https://DuckDuckGO.com/api )
 
 
-from urllib import urlopen
+from urllib2 import urlopen
 from json import load
 from re import compile
 from time import sleep
@@ -34,3 +34,5 @@ except IOError:
 except KeyboardInterrupt:
     print "\nThanks for using my script! BeSafe till next time (^_^)"
     sleep(1)
+else:
+    pass
