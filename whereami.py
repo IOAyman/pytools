@@ -1,5 +1,5 @@
 #!/usr/bin/python2
-# Copyright (c) 2013,  Ayman Nedjmeddine  @Dr_AymanB
+# Copyright (c) 2013,  Ayman Nedjmeddine  @IOAyman
 #
 # Redistribution and use in source and binary forms, with or without modification,
 # are permitted (for educational puroses are more appreciated) provided that the
@@ -10,7 +10,7 @@
 #   Any contributor can reference himself beneath the copyright notice
 #
 #
-# Fork at: https://github.com/IamAyman/Fast-pyTools
+# Fork at: https://github.com/IOAyman/pytools
 #
 #
 # This script prints out your your location based on your public ip address

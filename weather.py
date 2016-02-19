@@ -1,8 +1,20 @@
 #!/usr/bin/env python2
 
+'''
+Author:   Ayman Nedjmeddine, @IOAyman
+URL:      https://github.com/IOAyman/pytools
+
+    This script prints out your weather forecast for the next couple of days
+    based on your ip location
+'''
+
+
 from urllib2 import urlopen
 from json import load
 from subprocess import call
 
 
-call('curl wttr.in/%s' % load(urlopen('http://ip-api.com/json'))['city'], shell=True)
+try:
+    call('curl wttr.in/%s' % load(urlopen('http://ip-api.com/json'))['city'], shell=True)
+except:
+    print 'Err!'
