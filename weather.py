@@ -5,7 +5,11 @@ Author:   Ayman Nedjmeddine, @IOAyman
 URL:      https://github.com/IOAyman/pytools
 
     This script prints out your weather forecast for the next couple of days
-    based on your ip location
+    based on your ip location.
+
+    Thanks to
+        https://github.com/chubin/wttr.in
+        https://github.com/schachmat/wego
 '''
 
 
